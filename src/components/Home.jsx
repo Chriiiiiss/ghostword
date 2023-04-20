@@ -9,6 +9,7 @@ import {
   france2Data,
   france3Data,
 } from "../assets/data";
+import logo from "/logo.svg";
 
 const Home = () => {
   const [selectedWordData, setSelectedWordData] = useState(defaultData);
@@ -66,25 +67,30 @@ const Home = () => {
   const textParts = splitText(text);
 
   return (
-    <div className="container mx-auto p-4 space-y-10">
-      <div className="flex items-center justify-between">
-        <h1 className="text-2xl md:text-3xl lg:text-5xl text-left">
+    <div className="container mx-auto px-4 space-y-10">
+      <div className="flex flex-col md:flex-row items-center justify-between mt-10">
+        <div className="flex-shrink-0 mr-2 md:mr-4">
+          <img src={logo} alt="Logo" className="h-20 w-auto rounded-md" />
+        </div>
+        <h1 className="text-xl md:text-2xl lg:text-4xl text-left mb-4 md:mb-0">
           Study of Elisabeth Borne's speech of March 16, 2023 and its coverage
           in the media
         </h1>
-        <div className="space-x-4">
-          <span className="text-lg">Choisissez un ensemble de données :</span>
-          <select
-            className="border border-gray-300 rounded-md p-1"
-            onChange={handleSelectChange}
-          >
-            <option value="All">All</option>
-            <option value="BFMTV">BFMTV</option>
-            <option value="FranceC">France Culture</option>
-            <option value="France2">France 2</option>
-            <option value="France3">France 3</option>
-          </select>
-        </div>
+      </div>
+      <div className="flex items-center space-x-2 md:space-x-4">
+        <span className="text-lg hidden md:block">
+          Choisissez un ensemble de données :
+        </span>
+        <select
+          className="border border-gray-300 rounded-md p-1"
+          onChange={handleSelectChange}
+        >
+          <option value="All">All</option>
+          <option value="BFMTV">BFMTV</option>
+          <option value="FranceC">France Culture</option>
+          <option value="France2">France 2</option>
+          <option value="France3">France 3</option>
+        </select>
       </div>
       <section>
         <h2 className="text-4xl text-left mb-4">Corpus</h2>
