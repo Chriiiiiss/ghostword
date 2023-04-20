@@ -68,7 +68,7 @@ const Home = () => {
   return (
     <div className="container mx-auto p-4 space-y-10">
       <div className="flex items-center justify-between">
-        <h1 className="text-5xl text-left">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl text-left">
           Study of Elisabeth Borne's speech of March 16, 2023 and its coverage
           in the media
         </h1>
