@@ -115,13 +115,13 @@ const Home = () => {
         </div>
       </section>
       <section>
-        <h2 className="text-3xl text-left">Word cloud</h2>
+        <h2 className="text-4xl text-left mb-4">Word cloud</h2>
         <div className="flex flex-wrap items-center justify-center space-x-2 space-y-2">
           <WordCloudComponent wordData={convertWordData(selectedWordData)} />
         </div>
       </section>
       <section>
-        <h2 className="text-3xl text-left mb-4">
+        <h2 className="text-4xl text-left mb-4">
           Diagram on the number of words used on the speech by media
         </h2>
         <div className="flex flex-col items-center">
