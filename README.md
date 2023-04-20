@@ -9,7 +9,7 @@ To get started with the project, follow these steps:
 Clone the repository to your local machine using the following command:
 
 ```zsh
-git clone https://github.com/<your-username>/speech-analysis.git
+git clone https://github.com/chriiiiiss/speech-analysis.git
 ```
 
 Navigate to the project directory:
