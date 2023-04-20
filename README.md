@@ -46,11 +46,11 @@ The application consists of three sections:
 
 The project was developed using the following technologies:
 
-React
-Tailwind CSS
-D3.js
-WordCloud2.js
-Vite.js
+- React
+- Tailwind CSS
+- D3.js
+- WordCloud2.js
+- Vite.js
 
 ## Credits
 
