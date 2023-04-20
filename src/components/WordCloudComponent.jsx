@@ -5,7 +5,7 @@ const WordCloudComponent = (props) => {
   const { wordData } = props;
 
   const options = {
-    colors: ["#B3C2F9", "#7D98F8", "#597BF7"],
+    colors: ["#F64747", "#597BF7"],
     rotations: 2,
     rotationAngles: [-90, 0],
     fontSizes: [10, 50],
