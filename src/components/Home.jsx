@@ -134,6 +134,61 @@ const Home = () => {
           <BarChartComponent />
         </div>
       </section>
+      <section className="mt-8">
+        <h2 className="text-4xl text-left mb-4">Sources</h2>
+        <ul className="list-disc pl-6">
+          <li className="mb-2">
+            <a
+              href=" https://www.vie-publique.fr/discours/288955-elisabeth-borne-16032023-engagement-reponsabilite-reforme-des-retraites"
+              className="text-blue-500 hover:text-blue-700 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              Original speech
+            </a>
+          </li>
+          <li className="mb-2">
+            <a
+              href="https://www.francetvinfo.fr/replay-jt/france-2/20-heures/jt-de-20h-du-jeudi-16-mars-2023_5676926.html"
+              className="text-blue-500 hover:text-blue-700 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              FranceTv (France 2)
+            </a>
+          </li>
+          <li className="mb-2">
+            <a
+              href="https://www.francetvinfo.fr/replay-jt/france-3/19-20/jt-de-19-20-du-jeudi-16-mars-2023_5676932.html"
+              className="text-blue-500 hover:text-blue-700 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              FranceTv (France 3)
+            </a>
+          </li>
+          <li className="mb-2">
+            <a
+              href="https://www.radiofrance.fr/franceculture/podcasts/journal-de-18h/journal-de-18h-emission-du-jeudi-16-mars-2023-6985615"
+              className="text-blue-500 hover:text-blue-700 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              France Culture
+            </a>
+          </li>
+          <li className="mb-2">
+            <a
+              href="https://www.bfmtv.com/politique/retraites-elisabeth-borne-annonce-l-utilisation-du-49-3_VN-202303160499.html"
+              className="text-blue-500 hover:text-blue-700 underline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              BFMTV
+            </a>
+          </li>
+        </ul>
+      </section>
     </div>
   );
 };
