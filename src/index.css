@@ -15,3 +15,7 @@ h2 {
 .text-cormorant {
   font-family: "Cormorant", serif;
 }
+
+body {
+  background-color: #fbfbfb;
+}
