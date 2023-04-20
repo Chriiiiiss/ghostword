@@ -68,7 +68,10 @@ const Home = () => {
   return (
     <div className="container mx-auto p-4 space-y-10">
       <div className="flex items-center justify-between">
-        <h1 className="text-5xl text-left">Ghost Word</h1>
+        <h1 className="text-5xl text-left">
+          Study of Elisabeth Borne's speech of March 16, 2023 and its coverage
+          in the media
+        </h1>
         <div className="space-x-4">
           <span className="text-lg">Choisissez un ensemble de données :</span>
           <select
