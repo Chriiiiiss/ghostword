@@ -15,7 +15,7 @@ git clone https://github.com/chriiiiiss/speech-analysis.git
 Navigate to the project directory:
 
 ```zsh
-cd speech-analysis
+cd ghostword
 ```
 
 Install the project dependencies:
