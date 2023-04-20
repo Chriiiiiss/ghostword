@@ -78,9 +78,7 @@ const Home = () => {
         </h1>
       </div>
       <div className="flex items-center space-x-2 md:space-x-4">
-        <span className="text-lg hidden md:block">
-          Choisissez un ensemble de données :
-        </span>
+        <span className="text-lg hidden md:block">Choose a data set :</span>
         <select
           className="border border-gray-300 rounded-md p-1"
           onChange={handleSelectChange}
