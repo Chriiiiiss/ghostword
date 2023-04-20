@@ -8,6 +8,7 @@ import {
   Tooltip,
   Legend,
   Rectangle,
+  ResponsiveContainer,
 } from "recharts";
 
 const data = [
@@ -67,24 +68,26 @@ const maxValue = Math.max(...data.map((item) => item.count));
 
 const BarChartComponent = () => {
   return (
-    <BarChart
-      width={600}
-      height={300}
-      data={data}
-      margin={{
-        top: 5,
-        right: 30,
-        left: 20,
-        bottom: 5,
-      }}
-    >
-      <CartesianGrid strokeDasharray="3 3" />
-      <XAxis dataKey="name" />
-      <YAxis />
-      <Tooltip />
-      <Legend />
-      <Bar dataKey="count" shape={<CustomBar maxValue={maxValue} />} />
-    </BarChart>
+    <ResponsiveContainer width="100%" height={300}>
+      <BarChart
+        width={600}
+        height={300}
+        data={data}
+        margin={{
+          top: 5,
+          right: 30,
+          left: 20,
+          bottom: 5,
+        }}
+      >
+        <CartesianGrid strokeDasharray="3 3" />
+        <XAxis dataKey="name" />
+        <YAxis />
+        <Tooltip />
+        <Legend />
+        <Bar dataKey="count" shape={<CustomBar maxValue={maxValue} />} />
+      </BarChart>
+    </ResponsiveContainer>
   );
 };
 
